@@ -1,47 +1,45 @@
 # Hi, I'm Conor 👋
 
-I build open-source AI developer tools — focused on making AI-assisted development more structured, reproducible, and team-friendly.
+AI Full-Stack Engineer with 5 years of experience. Currently at **Dali International (HKEX-listed)**, leading AI digital transformation — architected 15+ AI modules (Chat / Workflow / Agent / RAG / Meeting) across front-end and back-end, integrating 12 model providers. Also built an overseas AI fashion platform from scratch.
+
+On the side, I build open-source developer tools to make AI-assisted development more structured and team-friendly.
+
+📝 **Blog**: [blog.conorliu.com](https://blog.conorliu.com) · 🌐 **Resume**: [resume.conorliu.com/resume](https://resume.conorliu.com/resume)
 
 ---
 
-## 🛠️ Open Source Projects
+## 🛠️ Open Source
 
-### 🧠 [ai-memory](https://github.com/hyxnj666-creator/ai-memory)
-> Turn Cursor / Claude Code / Windsurf / Copilot / Codex conversations into structured Markdown knowledge — local-first, git-trackable.
+### 🧠 [ai-memory](https://github.com/hyxnj666-creator/ai-memory) — Turn AI chats into a structured knowledge base
 
-- Extracts decisions, architecture, conventions, TODOs, and issues from your AI chat history
-- Zero config — built-in free model, runs with `npx ai-memory-cli extract`
-- MCP Server support for Cursor & Claude Code
-- 585 tests · TypeScript · MIT
+Extract decisions, architecture, conventions, TODOs and issues from your Cursor / Claude Code / Windsurf / Copilot / Codex conversations. Local-first, git-trackable Markdown — works out of the box with no API key.
 
 ```bash
 npx ai-memory-cli extract
 ```
 
+`TypeScript` · `MIT` · `MCP Server` · `585 tests`
+
 ---
 
-### 🔍 [ai-review-pipeline](https://github.com/hyxnj666-creator/ai-review-pipeline)
-> Zero-config AI code review pipeline: deterministic rule checks + LLM review, 4-tier scoring, HTML report, auto-fix.
+### 🔍 [ai-review-pipeline](https://github.com/hyxnj666-creator/ai-review-pipeline) — Zero-config AI code review pipeline
 
-- Supports OpenAI / DeepSeek / Claude / Qwen / Gemini / Ollama / SiliconFlow
-- Built-in free model — just `npx ai-review-pipeline` with no API key
-- Auto-fix mode, test generation, HTML report
-- JavaScript · MIT
+AI code review → auto-fix → test generation → HTML report in one command. Supports OpenAI / DeepSeek / Claude / Qwen / Gemini / Ollama — or just run it with no key at all.
 
 ```bash
-npx ai-review-pipeline
+npx ai-review-pipeline        # review only
+npx ai-review-pipeline --fix  # review + auto-fix loop
 ```
+
+`JavaScript` · `MIT` · `6 AI providers` · `HTML report`
 
 ---
 
-### ⚡ Other Tools
+### ⚡ [ai-site-template](https://github.com/hyxnj666-creator/ai-site-template) — AI-native personal site template
 
-| Project | Description |
-|---|---|
-| [ai-site-template](https://github.com/hyxnj666-creator/ai-site-template) | AI-native personal site — Next.js 15, RAG, Agents, Workflow Studio, WebGPU |
-| [ai-gateway-lite](https://github.com/hyxnj666-creator/ai-gateway-lite) | Lightweight AI gateway — multi-provider routing, fallback, budget control |
-| [ai-commit](https://github.com/hyxnj666-creator/ai-commit) | AI-generated git commit messages |
-| [ai-i18n](https://github.com/hyxnj666-creator/ai-i18n) | AI-powered i18n translation CLI |
+Next.js 16 personal site starter with AI SDK v6, RAG knowledge base, Agent, Workflow Studio and WebGPU effects. Ready to fork and deploy.
+
+`TypeScript` · `Next.js 16` · `RAG` · `WebGPU`
 
 ---
 
@@ -54,15 +52,9 @@ npx ai-review-pipeline
 
 ---
 
-## 🔧 Tech Stack
+## 🔧 Stack
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-
----
-
-📫 **hyxnj666@gmail.com**
-
-
+**Front-end** · Vue3 · React · TypeScript · Uni-app  
+**Back-end** · Python / FastAPI · Node.js · WebSocket · SSE  
+**AI** · Google ADK · LangChain · MCP · OpenAI SDK · RAG  
+**Infra** · PostgreSQL · Redis · Dramatiq · Nginx · PM2
