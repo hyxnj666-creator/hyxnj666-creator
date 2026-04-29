@@ -8,7 +8,7 @@ Currently at **Dali International (HKEX-listed)** leading AI digital transformat
 
 I care about making AI-assisted development more **structured**, **reproducible**, and **team-friendly** — so I build tools that do exactly that.
 
-🌐 [conorliu.com](https://conorliu.com)
+🌐 [conorliu.com](https://conorliu.com) · 📦 [npm](https://www.npmjs.com/~conorliu)
 
 ---
 
