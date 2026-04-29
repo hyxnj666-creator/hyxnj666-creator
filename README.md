@@ -1,43 +1,48 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&width=600&lines=AI+Full-Stack+Engineer+%F0%9F%A4%96;Building+open-source+AI+dev+tools;Chat+%2F+Agent+%2F+Workflow+%2F+RAG+full-stack;5+years+%7C+Shenzhen%2C+CN)](https://github.com/hyxnj666-creator)
+
 # Hi, I'm Conor 👋
 
-AI Full-Stack Engineer with 5 years of experience. Currently at **Dali International (HKEX-listed)**, leading AI digital transformation — architected 15+ AI modules (Chat / Workflow / Agent / RAG / Meeting) across front-end and back-end, integrating 12 model providers. Also built an overseas AI fashion platform from scratch.
+I'm an AI Full-Stack Engineer building enterprise AI platforms by day and open-source developer tools by night.
 
-On the side, I build open-source developer tools to make AI-assisted development more structured and team-friendly.
+Currently at **Dali International (HKEX-listed)** leading AI digital transformation — architected 15+ AI modules (Chat / Workflow / Agent / RAG / Meeting) and integrated 12 model providers, while also building an overseas AI fashion platform from scratch.
 
-📝 **Blog**: [blog.conorliu.com](https://blog.conorliu.com) · 🌐 **Resume**: [resume.conorliu.com/resume](https://resume.conorliu.com/resume)
+I care about making AI-assisted development more **structured**, **reproducible**, and **team-friendly** — so I build tools that do exactly that.
+
+📝 [blog.conorliu.com](https://blog.conorliu.com) · 🌐 [resume.conorliu.com/resume](https://resume.conorliu.com/resume)
 
 ---
 
 ## 🛠️ Open Source
 
-### 🧠 [ai-memory](https://github.com/hyxnj666-creator/ai-memory) — Turn AI chats into a structured knowledge base
+### 🧠 [ai-memory](https://github.com/hyxnj666-creator/ai-memory)
+> Turn your Cursor / Claude Code / Windsurf / Copilot / Codex conversations into a structured local knowledge base.
 
-Extract decisions, architecture, conventions, TODOs and issues from your Cursor / Claude Code / Windsurf / Copilot / Codex conversations. Local-first, git-trackable Markdown — works out of the box with no API key.
+Automatically extracts decisions, architecture, conventions, TODOs and issues from AI chat history → saves as git-trackable Markdown. Works out of the box with **no API key**.
 
 ```bash
 npx ai-memory-cli extract
 ```
 
-`TypeScript` · `MIT` · `MCP Server` · `585 tests`
+`TypeScript` · `MCP Server` · `585 tests` · `MIT`
 
 ---
 
-### 🔍 [ai-review-pipeline](https://github.com/hyxnj666-creator/ai-review-pipeline) — Zero-config AI code review pipeline
+### 🔍 [ai-review-pipeline](https://github.com/hyxnj666-creator/ai-review-pipeline)
+> Zero-config AI code review pipeline — review, auto-fix, test generation and HTML report in one command.
 
-AI code review → auto-fix → test generation → HTML report in one command. Supports OpenAI / DeepSeek / Claude / Qwen / Gemini / Ollama — or just run it with no key at all.
+Supports 6 AI providers (OpenAI / DeepSeek / Claude / Qwen / Gemini / Ollama) with **built-in free model**, no setup required.
 
 ```bash
-npx ai-review-pipeline        # review only
+npx ai-review-pipeline        # review + report
 npx ai-review-pipeline --fix  # review + auto-fix loop
 ```
 
-`JavaScript` · `MIT` · `6 AI providers` · `HTML report`
+`JavaScript` · `6 AI providers` · `HTML report` · `MIT`
 
 ---
 
-### ⚡ [ai-site-template](https://github.com/hyxnj666-creator/ai-site-template) — AI-native personal site template
-
-Next.js 16 personal site starter with AI SDK v6, RAG knowledge base, Agent, Workflow Studio and WebGPU effects. Ready to fork and deploy.
+### ⚡ [ai-site-template](https://github.com/hyxnj666-creator/ai-site-template)
+> AI-native personal site starter — Next.js 16, RAG, Agent, Workflow Studio, WebGPU effects. Fork and deploy.
 
 `TypeScript` · `Next.js 16` · `RAG` · `WebGPU`
 
