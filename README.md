@@ -50,10 +50,13 @@ npx ai-review-pipeline --fix  # review + auto-fix loop
 
 ## 📊 Stats
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=hyxnj666-creator&show_icons=true&theme=github_dark&hide_border=true&count_private=true&cache_seconds=86400" height="150" />
-  <img src="https://streak-stats.demolab.com?user=hyxnj666-creator&theme=github-dark&hide_border=true" height="150" />
-</p>
+![](https://img.shields.io/badge/ai--memory-v2.6.2-blue?style=flat-square&logo=npm)
+![](https://img.shields.io/npm/dm/ai-memory-cli?style=flat-square&label=ai-memory%20downloads&color=blue)
+![](https://img.shields.io/badge/ai--review--pipeline-v5.1.8-orange?style=flat-square&logo=npm)
+![](https://img.shields.io/npm/dm/ai-review-pipeline?style=flat-square&label=ai-review-pipeline%20downloads&color=orange)
+
+![](https://img.shields.io/github/stars/hyxnj666-creator/ai-memory?style=flat-square&label=ai-memory%20stars&color=yellow)
+![](https://img.shields.io/github/stars/hyxnj666-creator/ai-review-pipeline?style=flat-square&label=ai-review-pipeline%20stars&color=yellow)
 
 ---
 
